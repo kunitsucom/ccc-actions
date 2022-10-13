@@ -69,4 +69,4 @@ runs:
       run: |
         set -x
         env
-        ${{ github.action_path }}/${{ inputs.VERSION }}/bin/ccc
+        ${{ github.action_path }}/${{ inputs.VERSION }}/ccc
