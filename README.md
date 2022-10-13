@@ -32,7 +32,7 @@ jobs:
           workload_identity_provider: 'projects/999999999999/locations/global/workloadIdentityPools/your-pool/providers/your-provider'
           service_account: 'ccc@your-gcp-project.iam.gserviceaccount.com'
           access_token_lifetime: '600s'
-      - uses: kunitsuinc/ccc-actions@v0.0.4
+      - uses: kunitsuinc/ccc-actions@v0.0.5
         with:
           TZ: 'Asia/Tokyo'
           GOOGLE_CLOUD_PROJECT: 'your-gcp-project'
